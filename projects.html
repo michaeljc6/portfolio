@@ -17,13 +17,13 @@
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item active dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="projects.html">All Projects</a>
@@ -42,18 +42,23 @@
                 </ul>
             </div>
         </nav>
+        <h1 class="mb-3 projectsTitle">Projects</h1>
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h3>Music Generation</h3>
-                    <div class="img-box"><img src="resources/images/composer.PNG" /></div>
-                    <p>A neural network that can create or complete midi music built into a web API.</p>
+                    <h3><a href="composer.html" class="link-dark">Music Generation</a></h3>
+                    <div class="img-box"><a href="composer.html"><img src="resources/images/composer.PNG" /></a></div>
+                    <p>A neural network that can create or complete midi music.<br/>Created on Rosie and hosted on a web API.</p>
                 </div>
                 <div class="col">
-                    One of three columns
+                    <h3><a href="cms.html" class="link-dark">CMS Data Analysis</a></h3>
+                    <div class="img-box"><a href="cms.html"><img src="resources/images/cms.PNG" /></a></div>
+                    <p>Built for Direct Supply, fetches covid data from CMS and does data analysis automatically each week.</p>
                 </div>
                 <div class="col">
-                    One of three columns
+                    <h3><a href="chess.html" class="link-dark">Chess AI</a></h3>
+                    <div class="img-box"><a href="chess.html"><img src="resources/images/chess.PNG" /></a></div>
+                    <p>A chess AI made with a minimax algorithm.</p>
                 </div>
             </div>
         </div>
