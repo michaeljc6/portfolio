@@ -17,13 +17,13 @@
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item active dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="projects.html">All Projects</a>
@@ -43,8 +43,17 @@
             </div>
         </nav>
 
-
-        <h1>Hello</h1>
+        <h1 class="projectTitle">Automated CMS Data Processing</h1>
+        <h3 class="projectDesc">This project is one of many that I have done at Direct Supply but also one of the very few I can showcase. <br/><br/>
+            Direct Supply, being a healthcare company, has uses for the data collected by the CMS on Covid numbers and impacts in hospitals and Senior / Assisted
+            living homes across the country. To do the data processing, they had been manually doing it in excel each week (about 6 hours of work). Instead, 
+            I created a program which automatically gets all of the data from CMS, does all of the relevant processing, uploads and emails the data to
+            the relevant parties along with warnings if anything seems to be suspecious (such as large percentage jumps in cases), as well as creates a tableu powerpoint of the data.
+            The program runs automatically on a schedule as an AWS Lambda function.
+            <br /><br/>As a part of this project, I also set up a CI/CD pipeline in gitlab to automatically deploy changes to the program to the previously mentioned AWS instance.
+            <br/><br/>Below is a sample of one of the graphics made. The specific data and most other results can not be shown.
+        </h3>
+        <img id="sheetMusic" src="resources/images/cms.PNG" />
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

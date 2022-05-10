@@ -17,6 +17,16 @@ h1 {
     text-align: center;
 }
 
+#introText {
+    margin: 4%;
+    margin-right: 10%;
+}
+
+#troopImg {
+    width: 100%;
+    float: right;
+}
+
 #qrText {
     margin: 4%; 
     margin-right: 10%;
@@ -28,6 +38,13 @@ h1 {
     margin:3%;
 }
 
+#mainImg {
+    width: 25%;
+    margin: 2%;
+    display: flex;
+    float: left;
+}
+
 .link-dark:hover {
     color: rgb(50, 50, 50);
     box-shadow: 5px;
@@ -37,6 +54,7 @@ h1 {
 #sheetMusic {
     width: 80%;
     margin: auto;
+    margin-bottom: 2%;
     display: flex;
 }
 
