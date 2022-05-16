@@ -22,9 +22,12 @@ h1 {
     margin-right: 10%;
 }
 
-#troopImg {
-    width: 100%;
-    float: right;
+.abtImg {
+    max-height:100%; 
+    width:auto;
+    float: none;
+    display:block;
+    margin: 0 auto;
 }
 
 #qrText {
@@ -67,7 +70,7 @@ h1 {
 }
 
 .projectDesc {
-    text-align: center;
+    text-align: left;
     margin: 2% 10% 2% 10%;
 }
 
